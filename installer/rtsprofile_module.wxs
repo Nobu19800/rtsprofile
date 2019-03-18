@@ -4,7 +4,7 @@
   <Module Id="RTSProfile41"
     Language="1033"
     Codepage="1252"
-    Version="4.1.0">
+    Version="4.1.1">
     <!--Language="1041" Codepage="932" for Japanese-->
     <Package Id="54F6C036-634B-4478-8EE6-D5C217C5E0F2"
       Keywords="Installer"
@@ -22,7 +22,7 @@
           <Directory Id="PythonSitePackages" Name="site-packages">
             <Directory Id="RTSProfile" Name="rtsprofile">
             </Directory>
-            <Directory Id="RTSProfileInfo" Name="rtsprofile-4.1.0.dist-info">
+            <Directory Id="RTSProfileInfo" Name="rtsprofile-4.1.1.dist-info">
             </Directory>
           </Directory>
         </Directory>
@@ -53,12 +53,12 @@
     </DirectoryRef>
     <DirectoryRef Id="RTSProfileInfo">
       <Component Id="RTSProfileInfo" Guid="E992ECC0-9880-40D9-A8F5-510794C0E48F">
-        <File Id="RTSProfileDESCRIPTION.rst" Source="C:\Python27\Lib\site-packages\rtsprofile-4.1.0.dist-info\DESCRIPTION.rst" KeyPath="yes"/>
-        <File Id="RTSProfileMETADATA" Source="C:\Python27\Lib\site-packages\rtsprofile-4.1.0.dist-info\METADATA"/>
-        <File Id="RTSProfilemetadata.json" Source="C:\Python27\Lib\site-packages\rtsprofile-4.1.0.dist-info\metadata.json"/>
-        <File Id="RTSProfileRECORD" Source="C:\Python27\Lib\site-packages\rtsprofile-4.1.0.dist-info\RECORD"/>
-        <File Id="RTSProfiletop_level.txt" Source="C:\Python27\Lib\site-packages\rtsprofile-4.1.0.dist-info\top_level.txt"/>
-        <File Id="RTSProfileWHEEL" Source="C:\Python27\Lib\site-packages\rtsprofile-4.1.0.dist-info\WHEEL"/>
+        <File Id="RTSProfileDESCRIPTION.rst" Source="C:\Python27\Lib\site-packages\rtsprofile-4.1.1.dist-info\DESCRIPTION.rst" KeyPath="yes"/>
+        <File Id="RTSProfileMETADATA" Source="C:\Python27\Lib\site-packages\rtsprofile-4.1.1.dist-info\METADATA"/>
+        <File Id="RTSProfilemetadata.json" Source="C:\Python27\Lib\site-packages\rtsprofile-4.1.1.dist-info\metadata.json"/>
+        <File Id="RTSProfileRECORD" Source="C:\Python27\Lib\site-packages\rtsprofile-4.1.1.dist-info\RECORD"/>
+        <File Id="RTSProfiletop_level.txt" Source="C:\Python27\Lib\site-packages\rtsprofile-4.1.1.dist-info\top_level.txt"/>
+        <File Id="RTSProfileWHEEL" Source="C:\Python27\Lib\site-packages\rtsprofile-4.1.1.dist-info\WHEEL"/>
       </Component>
     </DirectoryRef>
   </Module>
