@@ -23,7 +23,7 @@ __version__ = '$Revision: $'
 # $Source$
 
 
-import new
+import types
 import re
 import sys
 import time
@@ -131,7 +131,7 @@ def _check_type(value, expected_types):
     for et in expected_types:
         if type(et) == type and type(value) == et:
             return True
-        elif type(et) == new.classobj and \
+        elif type(et) == types.new_class and \
                 value.__class__ == et:
             return True
     return False
