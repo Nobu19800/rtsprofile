@@ -19,7 +19,7 @@ This software is licensed under the GNU Lesser General Public License version 3
 Requirements
 ------------
 
-RTSProfile requires Python 2.7. It will not function with an earlier version of
+rtsprofile requires Python 2.7. It will not function with an earlier version of
 Python. It has not been tested with Python 3.
 
 Sphinx must be installed to build the documentation.
@@ -35,7 +35,7 @@ There are several methods of installation available:
  a. Install pip if it is not already installed.
     See https://pip.pypa.io/en/latest/installing/
 
- b. Execute the following command to install RTSProfile:
+ b. Execute the following command to install rtsprofile:
 
     $ pip install rtsprofile
 
