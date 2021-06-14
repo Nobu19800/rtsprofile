@@ -191,7 +191,7 @@ Update date: {3}\nVersion: {4}\n'.format(self.id, self.abstract,
     @abstract.setter
     def abstract(self, abstract):
         validate_attribute(abstract, 'rts_profile.abstract',
-                           expected_type=string_types(), required=True)
+                           expected_type=string_types(), required=False)
         self._abstract = abstract
 
     @property
