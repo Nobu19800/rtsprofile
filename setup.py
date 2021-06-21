@@ -28,8 +28,8 @@ import setuptools
 import sys
 
 
-setuptools.setup(name='rtsprofile',
-      version='4.1.1',
+setuptools.setup(name='rtsprofile-aist',
+      version='4.1.3',
       description='Library to read, manipulate and write RT system profiles \
 using the RTSProfile XML schema.',
       long_description='Library to read, manipulate and write RT system \
@@ -45,6 +45,11 @@ profiles using the RTSProfile XML schema.',
           'Natural Language :: English',
           'Operating System :: OS Independent',
           'Programming Language :: Python :: 2.7',
+          'Programming Language :: Python :: 3.5',
+          'Programming Language :: Python :: 3.6',
+          'Programming Language :: Python :: 3.7',
+          'Programming Language :: Python :: 3.8',
+          'Programming Language :: Python :: 3.9',
           'Topic :: Software Development',
           ],
       packages=['rtsprofile'],
