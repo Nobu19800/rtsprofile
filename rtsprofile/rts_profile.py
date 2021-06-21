@@ -608,7 +608,7 @@ Update date: {3}\nVersion: {4}\n'.format(self.id, self.abstract,
     ###########################################################################
     # API functions
 
-    def find_comp_by_target(self, target):
+    def find_comp_by_target(self, target, strict=False):
         '''Finds a component using a TargetComponent or one of its subclasses.
 
         @param A @ref TargetComponent object or subclass of @ref
@@ -620,7 +620,8 @@ Update date: {3}\nVersion: {4}\n'.format(self.id, self.abstract,
         for comp in self._components:
             if comp.id == target.component_id and \
                     comp.instance_name == target.instance_name:
-                return comp
+                    if not strict or comp.path_uri == target.properties["COMPONENT_PATH_ID"]:
+                        return comp
         raise MissingComponentError
 
     def optional_data_connections(self):
