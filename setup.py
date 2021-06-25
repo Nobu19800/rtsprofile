@@ -34,9 +34,9 @@ setuptools.setup(name='rtsprofile-aist',
 using the RTSProfile XML schema.',
       long_description='Library to read, manipulate and write RT system \
 profiles using the RTSProfile XML schema.',
-      author='Geoffrey Biggs',
-      author_email='geoffrey.biggs@aist.go.jp',
-      url='http://github.com/gbiggs/rtsprofile',
+      author='Noriaki Ando',
+      author_email='n-ando@aist.go.jp',
+      url='https://github.com/OpenRTM/rtsprofile',
       license='LGPL3',
       classifiers=[
           'Development Status :: 5 - Production/Stable',
