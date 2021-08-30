@@ -29,7 +29,7 @@ import sys
 
 
 setuptools.setup(name='rtsprofile-aist',
-      version='4.1.3',
+      version='4.1.5',
       description='Library to read, manipulate and write RT system profiles \
 using the RTSProfile XML schema.',
       long_description='Library to read, manipulate and write RT system \
